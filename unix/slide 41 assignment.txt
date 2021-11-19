@@ -1,0 +1,21 @@
+1.Directory create :mkdir abc
+2.create files : cat >abc
+employeelist
+skillset
+3.test2 home directory:mkdir test2
+cd-test2
+  i)symbolink link --> ln -s skillset abc
+ hlink-->cat hlink_skillset
+ ii)rm skillset 
+     cat hlink_skillset 
+     ls -l
+  iii)hard links are comparatively faster and soft links are comparatively slower
+4.pwd
+ chmod 042 user2
+5.chmod u-w file2
+6.chmod o+w file2
+7.chmod o-w file2
+8. chgrp employeelist user3
+9.chown user5 file2
+  ls-l
+10.wc employees

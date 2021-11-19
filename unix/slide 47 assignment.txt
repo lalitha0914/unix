@@ -1,0 +1,15 @@
+1.create file: cat >file1
+2.cat >file1
+  hi
+  hello
+3.cat >file2
+   Good evening
+   good night
+4.cat file1
+ cat file2
+5.cat file1 file2
+6. cat file1 file2 > file3
+7.
+8.
+9.
+10.cp file1 file6
