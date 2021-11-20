@@ -1,0 +1,5 @@
+1.tail +10 | head -15
+2.head -10 file1 |tail -n + 10
+3.ls -t | head -n1
+4.ls -lsr | head -n
+5.find .mtime +3 -exec rm -i{}\;

@@ -1,0 +1,29 @@
+1.vi abc
+i(insert)
+The basic calculator, bc, can do calculations to any precision that you specify. ?
+
+Therefore, if you know how to calculate pi and want to know its value to 20, 50, or 200 places, for example, use bc. ?
+
+This tool can add, subtract, multiply, divide, and raise a number to a power. It can take square roots, compute sines and cosines of angles, calculate exponentials and
+ logarithms, and handle arctangents and Bessel functions.?
+2.Remove 2nd line and undo :
+     dd (removes 2nd line)
+     u(undo)
+3.occurence of bc:
+:/bc
+4.
+5.remove all c in line 1:
+:1,$s/c/C
+6.replace space with /t:
+:1,$s/ /t/space
+7.copy line 1to3 and paste:
+yy  (for copy place cursor at line 1)
+P  (at line 3 at the end)
+8.delete last 3 lines:
+3dd
+9.undo last 2 changes:
+u (undo for last 3 lines)
+u (copy paste will be undo)
+10.save the file:
+:wq bc_v2
+          

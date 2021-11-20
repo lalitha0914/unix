@@ -1,0 +1,8 @@
+1.grep "[A]" file1
+2.grep "^[The]" file1
+3.grep "$ [.]" file1
+4.grep "[a,b,c]" file1
+5.grep "*[def,deef,deeeef]" file1
+6.grep -v "^[0-9]" file1
+7.grep -v "^$" file1
+9.find . -tyoe d -print
