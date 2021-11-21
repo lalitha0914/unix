@@ -1,0 +1,7 @@
+1.sort file < outfile &
+2.nohup sort +0 -1 -o outfile < file2 &
+3.it will run
+4.sleep 5 
+ls hello
+5.ps -u user10
+6.
